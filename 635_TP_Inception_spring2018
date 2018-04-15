@@ -1,0 +1,90 @@
+Team Project TP 3.1:
+
+Sprint 1:
+Project Selection
+and Inception 
+
+Software Analysis and Design
+
+Spring Semester, 2018
+SEIS 635 (3 semester credits)
+Section 01
+
+out March 24, 2018
+due April 14, 2018 
+but earlier is suggested
+
+10 points
+	
+Overview
+
+For this first Sprint of the third Team Project (TP 3.1), you will form teams of two to four students and plan your development of some custom Java application by the end of the course.
+
+Specifically, your team will specify, analyze, design, and code some application.  For this first Sprint, one team member should email me with your proposal; I will evaluate it and suggest possible alternatives. I will reply, approving your topic or requesting changes before approval.
+
+Your team will then write a Team Project 3 Sprint 1 (TP-3.1) Report, specifying details of your proposed application as well as a few beginning specification and design artifacts.  Finally, submit an electronic version of this document to our course Canvas site.
+
+Specifically, you will:
+
+•	Choose to join a team of 2-4 students;
+
+•	Select a Project after discussion with your team partners.
+
+•	Email me with your selection for review and approval;
+
+•	Write a Project Vision Report: an executive summary of your chosen application, describing the features and high-level goals of your proposed application;
+
+•	Begin the development of several project artifacts (described below) and add them to this document;
+
+•	Submit your report as described below.
+ 
+Detailed Process Steps
+
+Here are the details for this Team Project 3 Sprint 1 (TP-3.1):
+
+•	Choose to join a team of 2-4 students. Try to form teams with a mix of skills, including organization, documentation, coding, and testing.  Choose a short team name, and optionally specify one member of the team as the leader. 
+
+•	Propose to design, implement, and test a Java computer application on some computing platform.  Your application should involve one or more human users, interacting with them via some kind of interface (graphical or console or even "batch").  It may involve data persistence via a database or some other mechanism – but this is not required.
+
+Your team will have some latitude in choosing and implementing your app with a particular software development process.  You may use the more conventional approach given in our Larman textbook, writing use cases, developing a domain model, System Sequence Diagrams, followed by implementation guided by GRASP. Or you may try Test-Driven Development (TDD) from "scratch", following the approach given in posted documents and in the three provided tutorial videos on TDD. Or you can try a hybrid of the two.
+
+But you will have to follow some kind of process and deliver related artifacts that documents the use of your chosen process.
+
+Here are the absolute requirements for all teams. You must:
+
+•	Use Eclipse and Java
+•	Use Git/EGit and GitHub for your code development, committing to a GitHub repository on a regular basis
+•	Provide JUnit tests for as much of your non-UI code as is possible, as measured by ECLEmma
+•	Generate UML Class diagrams by reverse-engineering your code using ObjectAid UML or some other tool
+•	Provide online help within your application
+•	Present your final application in front of the entire class on our final class on May 12
+
+Here are some suggestions:
+
+•	Implement an original application: perhaps some game, or a utility to help GPS staff to manage administrative details.  Suggestions will be discussed in class.
+•	Enhance your TP 1 Skunk implementation, adding substantial new features to it as well as refactoring your previous code and improving your test coverage.
+•	Continue with your TP 2 TRL implementation, completing the circulation functionality and adding additional features.
+
+Spend some time with your team partner researching multiple alternatives before choosing.  Be careful about choosing a domain and associated application that is too complex.  As a rule of thumb, the domain model for your application should have between 5 to 15 classes.
+
+Please email your team members, team name, and proposed project choice to the professor as soon as possible, before writing your Vision Document.  Your choice will be reviewed and approved by an email reply, and then you can proceed with your project.
+
+Note that you will be able to propose later the particular software development process that you use to implement your project. TP-3.2 will describe such development options.
+
+•	You will write a Sprint 1 Team Report, named TP_3_1_Report_<team-name>.pdf file.
+
+Your Report should begin with a description of what is being submitted, in the following format:
+
+-	Team name and names of individual team members;
+
+-	Identifying header: “Team Project 3 Sprint 1 Report, submitted April 7, 2018 for SEIS 635 section 01 …”;
+
+-	One sentence description of what is in the document (“First Sprint Report for SEIS 635 Team Project 3 (TP-3): …”)
+
+Write your project description in the "Vision document" format, following Larman’s example on p. 109 of his text. It should only have the following sections:  "Introduction", "Stakeholder Descriptions" “Key High-Level Goals…”, “User-Level Goals” (this should be an Actor-Goal list), and “Summary of System Features.” Please follow these instructions carefully.
+
+•	Start a Glossary (Data Dictionary) for your Project.  This should follow your Vision and describe major terms, processes, and concepts relevant to your Project. Follow Larman's example in Chapter 7 of our textbook. You should include your Glossary at the end of your Report.
+
+•	Start a Domain Class list for your Project.  This should identify and briefly describe the central domain concepts of your Project. Follow Larman's suggestions in Chapter 9 of our textbook. You should include your Domain Class list at the end of your Report.
+
+Submit your single document TP_3_1_Report_<team-name>.pdf to the provided Assignment link for TP-3.1 on our course Canvas site.
